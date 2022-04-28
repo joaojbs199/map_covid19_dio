@@ -8,7 +8,7 @@ import {options, customStyles} from '../../selectOptions';
 function Main () {
 
     const [ data, setData ] = useState({});
-    const [ country, setCountry ] = useState('brazil');
+    const country= 'brazil';
     const [ updated, setUpdated] = useState(new Date().toLocaleString('pt-br'))
     const [ selectedCountry, setSelectedCountry ] = useState(options[0]);
 

@@ -1,4 +1,4 @@
-const options = [
+export const options = [
     {
         value: "brazil",
         label: "Brasil"
@@ -21,7 +21,7 @@ const options = [
     }
 ];
 
-const customStyles = {
+export const customStyles = {
     container: (provided, state) => ({
         ...provided,
         width: '50%',
@@ -47,5 +47,3 @@ const customStyles = {
         },
     }),
 }
-
-module.exports = {options, customStyles}
